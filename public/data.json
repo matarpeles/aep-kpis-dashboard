@@ -1,327 +1,119 @@
 {
-  "lastUpdated": "2026-03-15T09:00:00Z",
+  "lastUpdated": "2026-03-15T10:00:00Z",
   "kpis": [
     {
       "id": "interest_first_call",
       "category": "Marketing & Demand",
       "name": "Interest on First Call for Agentic",
-      "current": 65,
+      "current": 68,
       "target": 100,
       "status": "green",
-      "source": "HubSpot via n8n",
-      "comment": "Strong interest from enterprise segment",
+      "comment": "Projected # of demos: 200. Measured via n8n workflow based on keywords.",
       "drilldown": {
         "type": "marketing",
-        "items": [
-          {
-            "company": "Acme Corp",
-            "logo": "",
-            "quote": "We're very interested in the agentic workflows - this could transform our platform team",
-            "source": "First call - March 10",
-            "interestLevel": "high"
-          },
-          {
-            "company": "TechStart Inc",
-            "logo": "",
-            "quote": "The AI agent capabilities are exactly what we've been looking for",
-            "source": "First call - March 8",
-            "interestLevel": "high"
-          }
-        ],
-        "campaigns": [
-          {
-            "name": "AEP Launch Campaign",
-            "type": "LinkedIn Ads",
-            "status": "active",
-            "impact": "15 MQLs generated"
-          },
-          {
-            "name": "Agentic Workflows Blog Series",
-            "type": "Content",
-            "status": "active",
-            "impact": "2.5k views, 45 signups"
-          }
-        ]
+        "items": [],
+        "campaigns": []
       }
     },
     {
       "id": "word_of_mouth",
       "category": "Marketing & Demand",
       "name": "Word-of-mouth Mentions as AEP",
-      "current": 8,
-      "target": 20,
-      "status": "green",
-      "source": "Manual tracking",
-      "comment": "LinkedIn mentions increasing",
+      "current": 0,
+      "target": 100,
+      "status": "yellow",
+      "comment": "Pending Octolens procurement. Can get 30 from existing accounts.",
       "drilldown": {
         "type": "marketing",
-        "items": [
-          {
-            "platform": "LinkedIn",
-            "author": "Sarah Chen, VP Engineering @ Stripe",
-            "quote": "Just saw Port's new agentic platform capabilities - this is the future of developer platforms",
-            "date": "2026-03-12",
-            "link": "",
-            "engagement": "234 likes, 45 comments"
-          },
-          {
-            "platform": "LinkedIn",
-            "author": "Mike Johnson, Platform Lead @ Shopify",
-            "quote": "Port is doing something really interesting with AI agents in the IDP space",
-            "date": "2026-03-10",
-            "link": "",
-            "engagement": "189 likes, 32 comments"
-          },
-          {
-            "platform": "Twitter/X",
-            "author": "@devops_weekly",
-            "quote": "Port's agentic engineering platform is worth checking out if you're building internal platforms",
-            "date": "2026-03-08",
-            "link": "",
-            "engagement": "56 retweets, 120 likes"
-          }
-        ],
-        "campaigns": [
-          {
-            "name": "AEP Launch Campaign",
-            "type": "LinkedIn Ads",
-            "status": "active",
-            "impact": "15 MQLs generated"
-          },
-          {
-            "name": "Agentic Workflows Blog Series",
-            "type": "Content",
-            "status": "active",
-            "impact": "2.5k views, 45 signups"
-          }
-        ]
+        "items": [],
+        "campaigns": []
       }
     },
     {
       "id": "pocs_with_agentic",
       "category": "Pre-Sales",
       "name": "# of POCs with Agentic Workflows",
-      "current": 4,
-      "target": 10,
+      "current": 16,
+      "target": 35,
       "status": "yellow",
-      "source": "Manual tracking",
-      "comment": "Focus on Booksy and OutSystems this week",
+      "comment": "3 Done, 1 Implementing, 1 Planning, 11 Discovery",
       "drilldown": {
         "type": "deals",
         "items": [
           {
-            "company": "Booksy",
-            "status": "in_progress",
-            "stage": "POC Week 2",
-            "contact": "John Smith, VP Platform",
-            "comment": "Building service catalog with AI scaffolding. Demo scheduled for Friday.",
-            "agentic": true,
-            "startDate": "2026-03-01"
+            "company": "Done (3)",
+            "status": "live",
+            "stage": "Workflow implemented",
+            "comment": "3 POCs with agentic workflows completed"
           },
           {
-            "company": "OutSystems",
+            "company": "Implementing (1)",
             "status": "in_progress",
-            "stage": "POC Week 1",
-            "contact": "Maria Garcia, Director of Engineering",
-            "comment": "Setting up agentic workflow for cloud provisioning",
-            "agentic": true,
-            "startDate": "2026-03-10"
+            "stage": "Implementation",
+            "comment": "1 POC currently implementing agentic workflows"
           },
           {
-            "company": "DKV Mobility",
-            "status": "in_progress",
-            "stage": "POC Week 3",
-            "contact": "Hans Mueller, Platform Lead",
-            "comment": "Agentic PR review workflow live, expanding to deployments",
-            "agentic": true,
-            "startDate": "2026-02-24"
+            "company": "Planning (1)",
+            "status": "scheduled",
+            "stage": "Planning phase",
+            "comment": "1 POC in planning for agentic workflows"
           },
           {
-            "company": "1Password",
-            "status": "in_progress",
-            "stage": "POC Week 1",
-            "contact": "Alex Wong, Staff Engineer",
-            "comment": "Just started - focusing on MCP integration",
-            "agentic": true,
-            "startDate": "2026-03-12"
+            "company": "Discovery (11)",
+            "status": "discovery",
+            "stage": "Discovery phase",
+            "comment": "11 POCs in discovery for agentic workflows"
           }
         ]
       }
     },
     {
-      "id": "pocs_q2",
+      "id": "pocs_h1",
       "category": "Pre-Sales",
-      "name": "# of POCs in Q2",
-      "current": 12,
-      "target": 30,
+      "name": "Total # of POCs in H1",
+      "current": 22,
+      "target": 70,
       "status": "yellow",
-      "source": "HubSpot",
-      "comment": "Pipeline looking strong for April",
+      "comment": "Benchmark: 50. AEP helping with pipeline generation.",
       "drilldown": {
         "type": "deals",
-        "items": [
-          {
-            "company": "Booksy",
-            "status": "in_progress",
-            "stage": "POC Week 2",
-            "contact": "John Smith, VP Platform",
-            "comment": "Building service catalog with AI scaffolding",
-            "agentic": true,
-            "startDate": "2026-03-01"
-          },
-          {
-            "company": "OutSystems",
-            "status": "in_progress",
-            "stage": "POC Week 1",
-            "contact": "Maria Garcia, Director of Engineering",
-            "comment": "Setting up agentic workflow for cloud provisioning",
-            "agentic": true,
-            "startDate": "2026-03-10"
-          },
-          {
-            "company": "DKV Mobility",
-            "status": "in_progress",
-            "stage": "POC Week 3",
-            "contact": "Hans Mueller, Platform Lead",
-            "comment": "Standard IDP POC, no agentic yet",
-            "agentic": false,
-            "startDate": "2026-02-24"
-          },
-          {
-            "company": "Wayve",
-            "status": "in_progress",
-            "stage": "POC Week 2",
-            "contact": "James Lee, Platform Engineer",
-            "comment": "ML platform integration focus",
-            "agentic": false,
-            "startDate": "2026-03-05"
-          },
-          {
-            "company": "Applied Systems",
-            "status": "scheduled",
-            "stage": "Starting Mar 20",
-            "contact": "Tom Brown, CTO",
-            "comment": "Insurance vertical - interested in agentic",
-            "agentic": false,
-            "startDate": "2026-03-20"
-          },
-          {
-            "company": "Davivienda",
-            "status": "in_progress",
-            "stage": "POC Week 1",
-            "contact": "Carlos Ruiz, IT Director",
-            "comment": "Banking compliance workflows",
-            "agentic": false,
-            "startDate": "2026-03-11"
-          },
-          {
-            "company": "Guardant Health",
-            "status": "in_progress",
-            "stage": "POC Week 2",
-            "contact": "Dr. Sarah Kim, VP Engineering",
-            "comment": "Healthcare data pipelines",
-            "agentic": false,
-            "startDate": "2026-03-04"
-          },
-          {
-            "company": "Gelato",
-            "status": "in_progress",
-            "stage": "POC Week 1",
-            "contact": "Erik Larsen, Platform Lead",
-            "comment": "Print-on-demand infrastructure",
-            "agentic": false,
-            "startDate": "2026-03-10"
-          },
-          {
-            "company": "Tekion",
-            "status": "scheduled",
-            "stage": "Starting Mar 25",
-            "contact": "Raj Patel, Director",
-            "comment": "Automotive SaaS platform",
-            "agentic": false,
-            "startDate": "2026-03-25"
-          },
-          {
-            "company": "Deutsche Bank",
-            "status": "in_progress",
-            "stage": "POC Week 3",
-            "contact": "Klaus Weber, VP Platform",
-            "comment": "Large enterprise POC - multiple teams",
-            "agentic": false,
-            "startDate": "2026-02-25"
-          },
-          {
-            "company": "Apple",
-            "status": "in_progress",
-            "stage": "POC Week 1",
-            "contact": "Confidential",
-            "comment": "Developer tools team evaluation",
-            "agentic": true,
-            "startDate": "2026-03-12"
-          },
-          {
-            "company": "Capital One",
-            "status": "scheduled",
-            "stage": "Starting Apr 1",
-            "contact": "Jennifer Adams, SVP",
-            "comment": "Financial services platform modernization",
-            "agentic": false,
-            "startDate": "2026-04-01"
-          }
-        ]
+        "items": []
       }
     },
     {
       "id": "customers_agentic",
       "category": "Customer Success",
-      "name": "Customers with Agentic Workflow",
-      "current": 3,
-      "target": 8,
+      "name": "Customers with Agentic Workflows",
+      "current": 19,
+      "target": 70,
       "status": "yellow",
-      "source": "Manual tracking",
-      "comment": "StoneX and PwC in progress",
+      "comment": "2 Done, 6 Implementing, 3 Planning, 8 Discovery",
       "drilldown": {
         "type": "customers",
         "items": [
           {
-            "company": "StoneX",
+            "company": "Done (2)",
             "status": "live",
-            "useCase": "Automated PR review and deployment approval",
-            "contact": "Mike Chen, Platform Lead",
-            "comment": "Live since Feb 15. 40% reduction in deployment time.",
-            "goLiveDate": "2026-02-15"
+            "useCase": "Agentic workflows in production",
+            "comment": "2 customers with live agentic workflows"
           },
           {
-            "company": "Thomson Reuters",
-            "status": "live",
-            "useCase": "AI-assisted incident response",
-            "contact": "Sarah Johnson, SRE Manager",
-            "comment": "Agentic runbooks reducing MTTR by 35%",
-            "goLiveDate": "2026-02-20"
+            "company": "Implementing (6)",
+            "status": "in_progress",
+            "useCase": "Implementation in progress",
+            "comment": "6 customers currently implementing"
           },
           {
-            "company": "Sportradar",
-            "status": "live",
-            "useCase": "Self-service infrastructure provisioning",
-            "contact": "Lars Erikson, VP Engineering",
-            "comment": "Developers love the conversational interface",
-            "goLiveDate": "2026-03-01"
+            "company": "Planning (3)",
+            "status": "scheduled",
+            "useCase": "Planning phase",
+            "comment": "3 customers in planning phase"
           },
           {
-            "company": "PwC",
-            "status": "implementing",
-            "useCase": "Compliance workflow automation",
-            "contact": "Amanda Foster, Director",
-            "comment": "In implementation - go-live target Mar 25",
-            "goLiveDate": "2026-03-25"
-          },
-          {
-            "company": "Credit Acceptance",
-            "status": "planning",
-            "useCase": "Service catalog with AI recommendations",
-            "contact": "David Park, IT Director",
-            "comment": "Planning phase - kickoff next week",
-            "goLiveDate": null
+            "company": "Discovery (8)",
+            "status": "discovery",
+            "useCase": "Discovery phase",
+            "comment": "8 customers exploring agentic workflows"
           }
         ]
       }
