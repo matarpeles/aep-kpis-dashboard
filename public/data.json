@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T10:00:00Z",
+  "lastUpdated": "2026-03-15T12:00:00Z",
   "kpis": [
     {
       "id": "interest_first_call",
@@ -40,30 +40,22 @@
       "drilldown": {
         "type": "deals",
         "items": [
-          {
-            "company": "Done (3)",
-            "status": "live",
-            "stage": "Workflow implemented",
-            "comment": "3 POCs with agentic workflows completed"
-          },
-          {
-            "company": "Implementing (1)",
-            "status": "in_progress",
-            "stage": "Implementation",
-            "comment": "1 POC currently implementing agentic workflows"
-          },
-          {
-            "company": "Planning (1)",
-            "status": "scheduled",
-            "stage": "Planning phase",
-            "comment": "1 POC in planning for agentic workflows"
-          },
-          {
-            "company": "Discovery (11)",
-            "status": "discovery",
-            "stage": "Discovery phase",
-            "comment": "11 POCs in discovery for agentic workflows"
-          }
+          { "company": "Guardant Health", "status": "done", "useCase": "Autonomous Ticket Resolution" },
+          { "company": "Tekion", "status": "done", "useCase": "Self-Healing Incidents" },
+          { "company": "Deutsche Bank", "status": "done", "useCase": "Autonomous Security Management" },
+          { "company": "Gelato", "status": "implementing", "useCase": "Autonomous Ticket Resolution" },
+          { "company": "GoFundMe", "status": "planning", "useCase": "Autonomous Ticket Resolution, Agentic Work Management" },
+          { "company": "OutSystems", "status": "discovery", "useCase": "Self-Healing Incidents, Agents/Skill Registry" },
+          { "company": "Booksy", "status": "discovery", "useCase": "TBD" },
+          { "company": "1Password", "status": "discovery", "useCase": "Self-Healing Incidents" },
+          { "company": "Davivienda", "status": "discovery", "useCase": "Agentic Work Management" },
+          { "company": "Apple", "status": "discovery", "useCase": "Self-Healing Incidents, Agentic Work Management" },
+          { "company": "Capital One", "status": "discovery", "useCase": "Self-Healing Incidents, Agentic Work Management" },
+          { "company": "MSCI", "status": "discovery", "useCase": "—" },
+          { "company": "Wayve", "status": "discovery", "useCase": "—" },
+          { "company": "Kainos", "status": "discovery", "useCase": "—" },
+          { "company": "Zuora", "status": "discovery", "useCase": "—" },
+          { "company": "Henkel", "status": "discovery", "useCase": "—" }
         ]
       }
     },
@@ -91,30 +83,26 @@
       "drilldown": {
         "type": "customers",
         "items": [
-          {
-            "company": "Done (2)",
-            "status": "live",
-            "useCase": "Agentic workflows in production",
-            "comment": "2 customers with live agentic workflows"
-          },
-          {
-            "company": "Implementing (6)",
-            "status": "in_progress",
-            "useCase": "Implementation in progress",
-            "comment": "6 customers currently implementing"
-          },
-          {
-            "company": "Planning (3)",
-            "status": "scheduled",
-            "useCase": "Planning phase",
-            "comment": "3 customers in planning phase"
-          },
-          {
-            "company": "Discovery (8)",
-            "status": "discovery",
-            "useCase": "Discovery phase",
-            "comment": "8 customers exploring agentic workflows"
-          }
+          { "company": "StoneX", "status": "done", "useCase": "Agentic Work Management" },
+          { "company": "Pacific Life", "status": "done", "useCase": "Resource Management" },
+          { "company": "ATPCO", "status": "implementing", "useCase": "Autonomous Security Management" },
+          { "company": "PWC", "status": "implementing", "useCase": "—" },
+          { "company": "Yum", "status": "implementing", "useCase": "—" },
+          { "company": "SPS Commerce", "status": "implementing", "useCase": "—" },
+          { "company": "Credicorp", "status": "implementing", "useCase": "Agents/Skill Registry" },
+          { "company": "Via Transportation", "status": "implementing", "useCase": "Agents/Skill Registry" },
+          { "company": "AMCS", "status": "planning", "useCase": "Self-Healing Incidents, Autonomous Security Management" },
+          { "company": "Hilti", "status": "planning", "useCase": "Self-Healing Incidents" },
+          { "company": "Medtronic", "status": "planning", "useCase": "Autonomous Ticket Resolution" },
+          { "company": "World Bank", "status": "discovery", "useCase": "Resource Management" },
+          { "company": "Sportradar", "status": "discovery", "useCase": "Self-Healing Incidents" },
+          { "company": "BCP", "status": "discovery", "useCase": "—" },
+          { "company": "Pacifico", "status": "discovery", "useCase": "—" },
+          { "company": "Thomson Reuters", "status": "discovery", "useCase": "—" },
+          { "company": "Sophos", "status": "discovery", "useCase": "—" },
+          { "company": "Solarwinds", "status": "discovery", "useCase": "—" },
+          { "company": "Credit Acceptance", "status": "discovery", "useCase": "—" },
+          { "company": "Mark Anthony", "status": "discovery", "useCase": "—" }
         ]
       }
     }
