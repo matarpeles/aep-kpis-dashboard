@@ -291,8 +291,8 @@ const KPIDetail = () => {
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {drilldown.items?.map((item, idx) => (
-                <div key={idx} className="bg-white rounded-xl p-5 border border-gray-100">
+              {drilldown.items && drilldown.items.map((item, idx) => (
+                <div key={idx} className="bg-white rounded-xl p-5 border border-gray-100 shadow-sm">
                   <div className="flex items-start justify-between mb-3">
                     <h3 className="font-semibold text-gray-900">
                       {item.company || item.name || item.author || 'Item'}
@@ -308,15 +308,18 @@ const KPIDetail = () => {
                     )}
                   </div>
                   {(item.quote || item.comment) && (
-                    <p className="text-sm text-gray-600 italic">
+                    <p className="text-sm text-gray-600 italic mb-2">
                       "{item.quote || item.comment}"
                     </p>
                   )}
                   {item.stage && (
-                    <p className="text-xs text-gray-400 mt-2">{item.stage}</p>
+                    <p className="text-xs text-gray-500">{item.stage}</p>
                   )}
                   {item.platform && (
-                    <p className="text-xs text-gray-400 mt-2">{item.platform}</p>
+                    <p className="text-xs text-gray-500">{item.platform}</p>
+                  )}
+                  {item.useCase && (
+                    <p className="text-xs text-indigo-600 mt-2">{item.useCase}</p>
                   )}
                 </div>
               ))}
