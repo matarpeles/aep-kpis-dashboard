@@ -1,7 +1,7 @@
 #!/bin/bash
 # Deploy AEP KPIs Dashboard to AWS S3 + CloudFront
 
-CLOUDFRONT_ID="E1V7T4HA7J8C6Z"
+CLOUDFRONT_ID="E1LUWJRBZ6HOJ"
 
 echo "🔨 Building..."
 npm run build
@@ -14,4 +14,4 @@ aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_ID --paths "/*"
 
 echo ""
 echo "✅ Deployed!"
-echo "🌐 URL: https://d20t44wvt9s5oq.cloudfront.net"
+echo "🌐 URL: https://dj0ov5dknez63.cloudfront.net"
