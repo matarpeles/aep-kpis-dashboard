@@ -5,10 +5,10 @@
       "id": "interest_first_call",
       "category": "Marketing & Demand",
       "name": "Interest on First Call for Agentic",
-      "current": 68,
+      "current": 0,
       "target": 100,
-      "status": "green",
-      "comment": "Projected # of demos: 200. Measured via n8n workflow based on keywords.",
+      "status": "yellow",
+      "comment": "68 demos so far, projected 200. Measured via n8n workflow based on keywords.",
       "drilldown": {
         "type": "marketing",
         "items": [],
@@ -33,10 +33,10 @@
       "id": "pocs_with_agentic",
       "category": "Pre-Sales",
       "name": "# of POCs with Agentic Workflows",
-      "current": 16,
+      "current": 3,
       "target": 35,
       "status": "yellow",
-      "comment": "3 Done, 1 Implementing, 1 Planning, 11 Discovery",
+      "comment": "Pipeline: 1 Implementing, 1 Planning, 11 Discovery",
       "drilldown": {
         "type": "deals",
         "items": [
@@ -76,10 +76,10 @@
       "id": "customers_agentic",
       "category": "Customer Success",
       "name": "Customers with Agentic Workflows",
-      "current": 19,
+      "current": 2,
       "target": 70,
       "status": "yellow",
-      "comment": "2 Done, 6 Implementing, 3 Planning, 8 Discovery",
+      "comment": "Pipeline: 6 Implementing, 3 Planning, 8 Discovery",
       "drilldown": {
         "type": "customers",
         "items": [
